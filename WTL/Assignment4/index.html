@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="text/javascript" lang="javascript" src="script.js"></script>
+    
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Calculator</h1>
+    <div class="calculator">
+        <div class="screen">
+            <input type="text" id="screen" name="screen" readonly />
+        </div>
+        <div class="button">
+            <input type="button" id="btn-ac" name="btn-ac" value=AC onclick="handleAC()" />
+            <input type="button" id="btn-larr" name="btn-larr" value=&larr; />
+            <input type="button" id="btn-+-" name="btn-+-" value=&PlusMinus; />
+            <input type="button" id="btn-/" name="btn-/" value=&divide; onclick="handleOperation(this)" />
+            <input type="button" id="btn-7" name="btn-7" value=7 onclick="handleNumber(this)" />
+            <input type="button" id="btn-8" name="btn-8" value=8 onclick="handleNumber(this)" />
+            <input type="button" id="btn-9" name="btn-9" value=9 onclick="handleNumber(this)" />
+            <input type="button" id="btn-x" name="btn-x" value=&times; onclick="handleOperation(this)" />
+            <input type="button" id="btn-4" name="btn-4" value=4 onclick="handleNumber(this)" />
+            <input type="button" id="btn-5" name="btn-5" value=5 onclick="handleNumber(this)" />
+            <input type="button" id="btn-6" name="btn-6" value=6 onclick="handleNumber(this)" />
+            <input type="button" id="btn--" name="btn--" value=&minus; onclick="handleOperation(this)" />
+            <input type="button" id="btn-1" name="btn-1" value=1 onclick="handleNumber(this)" />
+            <input type="button" id="btn-2" name="btn-2" value=2 onclick="handleNumber(this)" />
+            <input type="button" id="btn-3" name="btn-3" value=3 onclick="handleNumber(this)" />
+            <input type="button" id="btn-+" name="btn-+" value=&plus; onclick="handleOperation(this)" />
+            <input type="button" id="btn-%" name="btn-%" value=&percnt; />
+            <input type="button" id="btn-0" name="btn-0" value=0 onclick="handleNumber(this)" />
+            <input type="button" id="btn-." name="btn-." value=. />
+            <input type="button" id="btn-+" name="btn-+" value=&equals; onclick="handleEquals(this)" />
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url('hotel.jpg'); /* Adjust the path */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+iframe {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+h1 {
+    color: #e8491d;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #e8491d;
+    font-size: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
